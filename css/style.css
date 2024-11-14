@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "kanit",sans-serif;
+}
+body{
+    background-image: url(../images/images/bg9.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.header-nav ul{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+  backdrop-filter: blur(3px);
+  background-color: rgb(12, 12, 12,.5);
+}
+.header-nav ul li{
+    padding: 10px;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    font-size: 1.25em;color: white;
+}
+.header-nav ul li a:hover{
+    text-decoration: overline;
+}
+.social ul{
+    display: flex;
+    list-style-type: none;
+}
+.social ul li{
+    padding: 5px;
+    border-radius: 50%;
+    transition: .25s;
+}
+.social ul li:hover{
+    transform: translate(0px,-5px);
+    box-shadow: 0px 5px 5px;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+    border-radius: 0px 0px 5px;
+    box-shadow: 0px 0px 5px;
+}
+.index-section{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.index-section h1{
+font-size: 3em;
+color: rgb(255, 0, 0..5);
+}
+.index-section button{
+    width: 200px;
+    height: 50px;
+    font-size: 1.25em;
+
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    opacity: .8;
+}
+.index-section button:hover{
+    cursor: pointer;
+    opacity: 1;
+}
